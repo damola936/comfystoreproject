@@ -1,0 +1,13 @@
+* {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: valentine --default, synthwave --prefersdark;
+}
+@layer components {
+  .align-element {
+    @apply mx-auto max-w-6xl px-8;
+  }
+}
