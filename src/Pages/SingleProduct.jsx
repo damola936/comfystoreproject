@@ -4,7 +4,7 @@ import { formatPrice, customFetch } from "../utils";
 import { useState } from "react";
 import { generateAmountOptions } from "../utils";
 import { useDispatch } from "react-redux";
-import { addItem } from "../Features/Cart/CartSlice";
+import { addItem } from "../Features/Cart/cartSlice";
 
 const singleProductQuery = (id) => {
   return {
